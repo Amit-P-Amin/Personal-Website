@@ -1,0 +1,7 @@
+Move all images to amazon s3.
+Get images.
+Improve history section.
+Get contact form to work.
+Make logo pretty.
+Add text descriptions to some places.
+Push live.

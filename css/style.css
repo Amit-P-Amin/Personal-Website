@@ -131,15 +131,29 @@ b.caret {
 .about-content {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 15%;
+	padding-right: 15%;
+
+}
+
+.border {
+	border-top: gray solid thin;
+}
+
+.skills-center {
+	text-align: center;
+	margin-top:-10px;
+}
+
+.skills {
+	text-align: center;
 }
 
 .content {
 	width: 100%;
 	max-width: 1170px;
 	margin: 0 auto;
-	padding: 90px 0px;
+	padding: 30px 0px;
 	position: relative;
 	z-index: 2;
 }
@@ -796,15 +810,28 @@ a.red-button:hover{
 }
 .main_title_a {
 	color: #F26341;
-	text-transform: uppercase;
 	text-align: center;
 	margin-top: 0;
 	position: relative;
-	margin: 0px 0 50px 0;
+	margin: 0px 0 30px 0;
+}
+
+.amit-description {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.amit-description p{
+	padding-bottom: 7px;
 }
 .main_title_a span {
 	color: #F26341;
 }
+
+.skills-center {
+
+}
+
 .welcome-banner-text a.more_a {
 	/* Background Styles */
 	background: rgb(241,110,82); /* Old browsers */
@@ -902,7 +929,8 @@ a.red-button:hover{
 	background: #fff;
 }
 .about-contents {
-	margin: 20px auto 0 auto;
+	margin: 30px auto 0 auto;
+	max-width: 1200px;
 }
 /* About Control Buttons*/
 
@@ -2208,7 +2236,7 @@ a.load-more:hover {
 	color: white;
 }
 .work-img .zoom {
-	left: 40%;
+	left: 48%;
     top: 10%;
     -moz-transform: translateY(-40%) translateX(-40%);
 	-webkit-transform: translateY(-40%) translateX(-40%);
@@ -2220,7 +2248,7 @@ a.load-more:hover {
 	transition: all 0.5s ease 0s;
 }
 .work-img .detail {
-	right: 40%;
+	right: 48%;
     top: 10%;
     -moz-transform: translateY(-40%) translateX(40%);
 	-webkit-transform: translateY(-40%) translateX(40%);
@@ -2235,7 +2263,7 @@ a.load-more:hover {
 	opacity: 0.2;
 }
 .work:hover .work-img .zoom {
-	left: 40%;
+	left: 48%;
     top: 40%;
     -moz-transform: translateY(-40%) translateX(-40%);
 	-webkit-transform: translateY(-40%) translateX(-40%);
@@ -2244,7 +2272,7 @@ a.load-more:hover {
 	opacity: 1;
 }
 .work:hover .work-img .detail {
-	right: 40%;
+	right: 48%;
     top: 40%;
     -moz-transform: translateY(-40%) translateX(40%);
 	-webkit-transform: translateY(-40%) translateX(40%);
